@@ -130,26 +130,6 @@ Local Database (SQLite / Drift)
 | Charts | Flutter UI |
 | Storage | Local Database |
 
----
-
-## 📂 Project Structure
-
-
-lib/
-├── core/
-├── data/
-│ ├── db/
-│ ├── repositories/
-│ ├── models/
-├── domain/
-│ ├── entities/
-│ ├── usecases/
-├── presentation/
-│ ├── dashboard/
-│ ├── transactions/
-│ ├── widgets/
-└── main.dart
-
 
 ---
 
