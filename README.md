@@ -44,7 +44,7 @@ FinTrack Pro is a fully offline-first expense tracking application built using F
 
 ### 📴 Offline First App
 - Works completely without internet  
-- All data stored locally (SQLite/Drift/Hive)  
+- All data stored locally (SQLite/Drift)  
 - Fast and reliable performance  
 - No API or backend dependency  
 
@@ -55,11 +55,11 @@ FinTrack Pro is a fully offline-first expense tracking application built using F
 
 UI Layer
 ↓
-State Management (Riverpod / BLoC)
+State Management (Riverpod)
 ↓
 Repository Layer
 ↓
-Local Database (SQLite / Drift / Hive)
+Local Database (SQLite / Drift)
 
 
 ---
@@ -125,9 +125,9 @@ Local Database (SQLite / Drift / Hive)
 | Layer | Technology |
 |------|------------|
 | UI | Flutter |
-| State Management | Riverpod / BLoC |
-| Database | SQLite / Drift / Hive |
-| Charts | Flutter UI (Bar Chart / Custom UI) |
+| State Management | Riverpod  |
+| Database | SQLite / Drift  |
+| Charts | Flutter UI |
 | Storage | Local Database |
 
 ---
@@ -157,7 +157,7 @@ lib/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/fintrack_pro.git
+git clone [https://github.com/your-username/fintrack_pro.git](https://github.com/ashwinihombal02/fintrackPro.git)
 2️⃣ Navigate to Project Directory
 cd fintrack_pro
 3️⃣ Install Dependencies
